@@ -12,7 +12,10 @@ library(flexdashboard)
 library(tidyverse)
 library(plotly)
 library(shiny)
+library(rsconnect)
 ```
+
+
 
 ```{r data import}
 df20_tidy = 
